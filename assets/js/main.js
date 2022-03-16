@@ -135,19 +135,19 @@ sr.reveal(`.home-social`, { delay: 900, origin: 'bottom' })
 
 const srServices = ScrollReveal({
     origin: 'bottom',
-    distance: '100px',
-    duration: 2000,
-    delay: 100,
+    distance: '60px',
+    duration: 2500,
+    delay: 300,
     reset: true,
 })
 
-sr.reveal(`.reveal-ui`)
-sr.reveal(`.reveal-web`, { delay: 400 })
-sr.reveal(`.reveal-app`, { delay: 700 })
+srServices.reveal(`.reveal-ui`)
+srServices.reveal(`.reveal-web`, { delay: 500 })
+srServices.reveal(`.reveal-app`, { delay: 800 })
 
-sr.reveal(`.reveal-email`)
-sr.reveal(`.reveal-tele`, { delay: 400 })
-sr.reveal(`.reveal-mess`, { delay: 700 })
+srServices.reveal(`.reveal-email`)
+srServices.reveal(`.reveal-tele`, { delay: 500 })
+srServices.reveal(`.reveal-mess`, { delay: 800 })
 
 /*=============== TILT ANIMATION ===============*/
 
